@@ -1,0 +1,6 @@
+Description: This tests the result of building a link on an open slot.
+* is built? true or true (should be the same)
+* vp = 0 or 0 (should be the same)
+* basic price = 10 or 10 (should be the same)
+* coal cost = 1 or 1 (should be the same)
+* player name = Alice or Alice (should be the same)

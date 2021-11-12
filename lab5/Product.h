@@ -1,0 +1,23 @@
+#ifndef PRODUCT_H
+#define PRODUCT_H
+
+class Product
+{
+    private: 
+        double regular_price;
+        std::string product_name;
+    public: 
+        Product() : regular_price(0), product_name("") {}
+        Product(double regular_price, const std::string& product_name)
+          : regular_price(regular_price), product_name(product_name) {}
+        std::string get_product_name() const { return product_name; }
+        double get_regular_price() const { return regular_price; }
+        virtual double get_retail_price() const = 0;
+        virtual void print() const = 0;
+    /* ===================================================================
+        TODO: Complete the get_retail_price function, and print function.
+        HINT: This function is a pure virtual function.
+       =================================================================== */
+};
+
+#endif

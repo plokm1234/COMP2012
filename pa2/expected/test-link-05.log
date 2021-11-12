@@ -1,0 +1,2 @@
+Description: This tests the correctness of Link VP obtained from adjacent industries.
+* link vp = 2 or 2 (should be the same)

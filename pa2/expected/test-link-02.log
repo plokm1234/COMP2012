@@ -1,0 +1,6 @@
+Description: This tests the attributes of an unbuilt link tile.
+* is built? false
+* vp = 0
+* basic price = 10
+* coal cost = 1
+* player name = Alice

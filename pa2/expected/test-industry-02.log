@@ -1,0 +1,16 @@
+The IndustryInfoPrinter wants to tell us about what it received from a IndustryObserver...
+== Pottery ==
+* location = A
+* tech level = 1
+* owner = None
+* vp (from the tile's properties) = 1
+* eligible for vp? = false
+* available units = 0
+Description: This tests building a secondary industry on an open industry slot.
+* is built? true or true (should be the same)
+* vp (not being 0 only if is eligible for vp) = 0 or 0 (should be the same)
+* basic price = 1 or 1 (should be the same)
+* coal cost = 1 or 1 (should be the same)
+* player name = None or None (should be the same)
+* available units = 0 or 0 (should be the same)
+* sold = false

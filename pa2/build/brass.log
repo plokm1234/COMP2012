@@ -1,0 +1,10 @@
+[Game::Run()] round 1 of 10
+[Game::PlayRound()] turn 1 of 2 | player = Alice
+[Game::PlayRound()] resource info
+[Game::LogResourceInfo()] resource info
+* resource type = Coal | industry supply = 0 | market supply = 13 | market selling prices = 1,2,2,3,3 | market buying prices = 1,0,0,0,0
+[Game::LogResourceInfo()] resource info
+* resource type = Iron | industry supply = 0 | market supply = 8 | market selling prices = 2,2,3,3,4 | market buying prices = 1,1,0,0,0
+[Game::LogPlayerInfo()] player info
+income level = 0 | exp = 0 | perm. vp = 0 | prov. vp = 0 | balance = 17 | network =  | adj links = 
+[Game::PlayRound()] action 1 of 1

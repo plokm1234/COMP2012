@@ -1,0 +1,16 @@
+The IndustryInfoPrinter wants to tell us about what it received from a IndustryObserver...
+== Manufacturer ==
+* location = A
+* tech level = 1
+* owner = Alice
+* vp (from the tile's properties) = 1
+* eligible for vp? = false
+* available units = 0
+Description: This tests overbuilding a secondary industry on another.
+* is built? true or true (should be the same)
+* vp (not being 0 only if is eligible for vp) = 0 or 0 (should be the same)
+* basic price = 1 or 1 (should be the same)
+* coal cost = 1 or 1 (should be the same)
+* player name = Alice or Alice (should be the same)
+* available units = 0 or 0 (should be the same)
+Can over build by a higher-level industry held by the same player? true

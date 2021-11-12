@@ -1,0 +1,178 @@
+[Game::Run()] round 1 of 10
+[Game::PlayRound()] turn 1 of 2 | player = Alice
+[Game::PlayRound()] resource info
+[Game::LogResourceInfo()] resource info
+* resource type = Coal | industry supply = 0 | market supply = 13 | market selling prices = 1,2,2,3,3 | market buying prices = 1,0,0,0,0
+[Game::LogResourceInfo()] resource info
+* resource type = Iron | industry supply = 0 | market supply = 8 | market selling prices = 2,2,3,3,4 | market buying prices = 1,1,0,0,0
+[Game::LogPlayerInfo()] player info
+income level = 0 | exp = 0 | perm. vp = 0 | prov. vp = 0 | balance = 17 | network =  | adj links = 
+[Game::PlayRound()] action 1 of 1
+[Game::PerformAction()] action = Build
+[Action::ChooseCard()] player card list
+* Dudley | is wild card = false
+* Walsall | is wild card = false
+* Iron Works | is wild card = false
+* Worcester | is wild card = false
+* Iron Works | is wild card = false
+* Wolverhampton | is wild card = false
+* Coalbrookdale | is wild card = false
+* Nuneaton | is wild card = false
+[Action::ChooseCard()] chosen card
+>> card = Iron Works @ index = 2
+[BuildAction::PerformAction()] filter overbuilt targets (before considering consumption)
+* Coal Mine@Burton-on-Trent | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Cannock | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Cannock | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Tamworth | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Tamworth | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Coalbrookdale | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Dudley | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Kidderminster | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Wolverhampton | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Belper | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Leek | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Stone | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Coventry | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Nuneaton | card ok = true | player industry ok = true | player affordable = true
+* Coal Mine@Redditch | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Walsall | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Coalbrookdale | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Coalbrookdale | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Dudley | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Derby | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Stoke-on-Trent | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Birmingham | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Coventry | card ok = true | player industry ok = true | player affordable = true
+* Iron Works@Redditch | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Burton-on-Trent | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Cannock | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Stafford | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Walsall | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Coalbrookdale | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Worcester | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Derby | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Stone | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Uttoxeter | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Uttoxeter | card ok = true | player industry ok = true | player affordable = true
+* Brewery@Nuneaton | card ok = true | player industry ok = true | player affordable = true
+* Cotton Mill@Tamworth | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Tamworth | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Kidderminster | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Kidderminster | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Worcester | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Worcester | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Belper | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Derby | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Derby | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Leek | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Leek | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Stoke-on-Trent | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Stone | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Uttoxeter | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Birmingham | card ok = true | player industry ok = false | player affordable = true
+* Cotton Mill@Nuneaton | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Burton-on-Trent | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Cannock | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Stafford | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Walsall | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Walsall | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Wolverhampton | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Wolverhampton | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Belper | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Derby | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Leek | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Stoke-on-Trent | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Stoke-on-Trent | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Stone | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Uttoxeter | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Birmingham | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Birmingham | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Birmingham | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Coventry | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Coventry | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Nuneaton | card ok = true | player industry ok = false | player affordable = true
+* Manufacturer@Redditch | card ok = true | player industry ok = false | player affordable = true
+* Pottery@Stafford | card ok = true | player industry ok = false | player affordable = true
+* Pottery@Belper | card ok = true | player industry ok = false | player affordable = true
+* Pottery@Stoke-on-Trent | card ok = true | player industry ok = false | player affordable = true
+* Pottery@Coventry | card ok = true | player industry ok = false | player affordable = true
+[BuildAction::PerformAction()] overbuilt shortlist
+* Coal Mine@Burton-on-Trent | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Cannock | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Cannock | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Tamworth | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Tamworth | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Coalbrookdale | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Dudley | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Kidderminster | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Wolverhampton | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Belper | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Leek | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Stone | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Coventry | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Nuneaton | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Coal Mine@Redditch | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 5
+* Brewery@Burton-on-Trent | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Cannock | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Stafford | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Walsall | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Coalbrookdale | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Worcester | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Derby | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Stone | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Uttoxeter | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Uttoxeter | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+* Brewery@Nuneaton | owner = None | tech level = 0 | inventory = 0 | eligible for vp = false | total build $ = 7
+[BuildAction::ChooseIndustryToBuild()] overbuilt shortlist
+* Coal Mine@Burton-on-Trent | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Cannock | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Cannock | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Tamworth | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Tamworth | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Coalbrookdale | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Dudley | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Kidderminster | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Wolverhampton | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Belper | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Leek | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Stone | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Coventry | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Nuneaton | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Coal Mine@Redditch | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 5
+* Brewery@Burton-on-Trent | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Cannock | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Stafford | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Walsall | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Coalbrookdale | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Worcester | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Derby | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Stone | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Uttoxeter | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Uttoxeter | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+* Brewery@Nuneaton | owner = None | tech level = 0 | vp = 0 | vp for link = 0 | inventory = 0 | beer cost = 0 | eligible for vp = false | total $ = 7
+[ActionRequirement::ChooseIndustriesToConsume()] consumption report
+== Coal consumption ==
+* market units: 0 for $0
+== Iron consumption ==
+* market units: 0 for $0
+[BuildAction::PerformAction()] will build 
+tech level = 1 | basic price = 5 | coal cost = 0 | iron cost = 0 | beer cost = 0 | output units = 2 | +exp = 4 | vp = 1 | vp for link = 2 | discardable = true
+on Coal Mine@Burton-on-Trent
+[Game::PlayRound()] action completed
+[Game::PlayRound()] all actions completed
+[Game::LogResourceInfo()] resource info
+* resource type = Coal | industry supply = 0 | market supply = 13 | market selling prices = 1,2,2,3,3 | market buying prices = 1,0,0,0,0
+[Game::LogResourceInfo()] resource info
+* resource type = Iron | industry supply = 0 | market supply = 8 | market selling prices = 2,2,3,3,4 | market buying prices = 1,1,0,0,0
+[Game::LogPlayerInfo()] player info
+income level = 0 | exp = 0 | perm. vp = 0 | prov. vp = 0 | balance = 12 | network = Burton-on-Trent | adj links = (Burton-on-Trent,Cannock),(Burton-on-Trent,Derby),(Burton-on-Trent,Stone),(Burton-on-Trent,Tamworth),(Burton-on-Trent,Walsall)
+[Game::PlayRound()] turn 2 of 2 | player = Bob
+[Game::PlayRound()] resource info
+[Game::LogResourceInfo()] resource info
+* resource type = Coal | industry supply = 0 | market supply = 13 | market selling prices = 1,2,2,3,3 | market buying prices = 1,0,0,0,0
+[Game::LogResourceInfo()] resource info
+* resource type = Iron | industry supply = 0 | market supply = 8 | market selling prices = 2,2,3,3,4 | market buying prices = 1,1,0,0,0
+[Game::LogPlayerInfo()] player info
+income level = 0 | exp = 0 | perm. vp = 0 | prov. vp = 0 | balance = 17 | network =  | adj links = 
+[Game::PlayRound()] action 1 of 1

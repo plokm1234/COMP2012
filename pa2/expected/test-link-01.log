@@ -1,0 +1,6 @@
+Description: This tests the attributes of an open link slot.
+* is built? false
+* vp = 0
+* basic price = 0
+* coal cost = 0
+* player name = None
