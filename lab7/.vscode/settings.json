@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "map": "cpp",
+        "optional": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
+}

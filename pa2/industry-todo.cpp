@@ -16,6 +16,7 @@ PrimaryIndustry::PrimaryIndustry(IndustryType industry_type, IndustryProperties 
   //       has a resource observer attached, we can assume `other` is assoicated
   //       to a valid resource observer.
 bool PrimaryIndustry::CanOverbuild(Industry* other) const{
+  
   if(this->properties_.tech_level > other->properties().tech_level  && other->industry_type() == this->industry_type()) {
     if(other->player() == nullptr){
       return true;
